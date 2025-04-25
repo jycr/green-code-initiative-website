@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import CircleChevronDownIcon from "@/assets/icons/circle_chevron_down.svg?component";
 import CircleChevronUpIcon from "@/assets/icons/circle_chevron_up.svg?component";
+import CircleChevronUpUpIcon from "@/assets/icons/circle_chevron_up_up.svg?component";
+import CircleStopIcon from "@/assets/icons/circle_stop.svg?component";
 import InfoIcon from "@/assets/icons/info.svg?component";
 import { type Component, computed } from "vue";
 
@@ -8,7 +10,8 @@ const icons: Record<Rule["severity"], Component> = {
   INFO: InfoIcon,
   MINOR: CircleChevronDownIcon,
   MAJOR: CircleChevronUpIcon,
-  CRITICAL: CircleChevronUpIcon,
+  CRITICAL: CircleChevronUpUpIcon,
+  BLOCKER: CircleStopIcon,
 } as const;
 
 const props = defineProps<{ severity: Rule["severity"] }>();
@@ -31,7 +34,8 @@ const icon = computed(() => icons[props.severity]);
   border-radius: 8px;
   font-size: 0.875rem;
   font-weight: bold;
-  background-color: rgba(var(--background-color), 0.5);
+  background-color: var(--background-color);
+  color: var(--font-color);
 
   svg {
     width: 20px;
@@ -41,18 +45,27 @@ const icon = computed(() => icons[props.severity]);
 
   &.info,
   &.minor {
-    --background-color: 133, 218, 255;
+    --background-color: rgba(133, 218, 255, 0.5);
     --icon-color: 57, 98, 115;
+    --font-color: rgb(0, 0, 0);
   }
 
   &.major {
-    --background-color: 255, 206, 133;
+    --background-color: rgba(255, 206, 133, 0.5);
     --icon-color: 151, 116, 63;
+    --font-color: rgb(0, 0, 0);
   }
 
   &.critical {
-    --background-color: 255, 133, 133;
+    --background-color: rgba(255, 133, 133, 0.5);
     --icon-color: 151, 68, 63;
+    --font-color: rgb(0, 0, 0);
+  }
+
+  &.blocker {
+    --background-color: rgba(255, 0, 0, 1);
+    --icon-color: 255, 255, 255;
+    --font-color: rgb(255, 255, 255);
   }
 }
 </style>

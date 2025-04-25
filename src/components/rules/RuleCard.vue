@@ -4,18 +4,17 @@ import RuleSeverity from "@/components/rules/RuleSeverity.vue";
 import { computed } from "vue";
 
 const { rule } = defineProps<{ rule: Rule }>();
-const isDeprecated = computed(() => rule.status === "DEPRECATED");
 </script>
 
 <template>
   <div class="rule-card">
-    <div class="rule-info" :class="isDeprecated ? 'deprecated' : ''">
-      <span class="rule-name">{{ rule.name }}</span>
-      <span class="rule-id">{{ rule.id }}</span>
+    <div class="rule-info" :class="rule.status">
+      <span class="rule-name">{{ rule.title }}</span>
+      <span class="rule-id">{{ rule.key }}</span>
     </div>
     <div class="rule-badges">
       <RuleSeverity :severity="rule.severity" />
-      <AppBadge v-for="tech in rule.technologies" :key="tech" :text="tech" />
+      <AppBadge :key="rule.language" :text="rule.language" />
     </div>
   </div>
 </template>

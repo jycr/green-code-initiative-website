@@ -9,14 +9,14 @@ const filters = defineModel<RuleFilters>({ required: true });
 <template>
   <div class="filters">
     <div class="filter-type">
-      <h2>Technologies</h2>
+      <h2>Languages</h2>
       <div class="filter-items">
         <RuleFilterItem
-          v-for="tech in meta.technologies"
-          :key="tech"
-          :id="tech"
-          :label="tech"
-          v-model="filters.technologies[tech]"
+          v-for="language in meta.languages"
+          :key="language"
+          :id="language"
+          :label="language"
+          v-model="filters.languages[language]"
         />
       </div>
     </div>

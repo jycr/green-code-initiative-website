@@ -4,11 +4,11 @@ import RulesFilters from "@/components/rules/RulesFilters.vue";
 import RuleCard from "@/components/rules/RuleCard.vue";
 import { useRuleFilters } from "@/composables/rule-filters";
 
-const { items, meta } = (await fetch(import.meta.env.VITE_RULES_URL).then(
+const rulesSpecifications: RulesSpecifications = (await fetch(import.meta.env.VITE_RULES_URL || "/src/assets/creedengo-rules-specifications.sample.json").then(
   (res) => res.json(),
-)) as RuleList;
+)) as RulesSpecifications;
 
-const { filters, filteredRules } = useRuleFilters({ items, meta });
+const { items, meta, filters, filteredRules } = useRuleFilters(rulesSpecifications);
 </script>
 
 <template>

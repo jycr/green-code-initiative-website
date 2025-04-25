@@ -7,21 +7,53 @@ declare type Member = {
   links: Partial<Record<MemberLinkType, string>>;
 };
 
+declare type RuleType =
+    | "CODE_SMELL"
+    | "BUG"
+    | "VULNERABILITY"
+    | "SECURITY_HOTSPOT"
+    ;
+
+declare type RuleStatus =
+    | "ready"
+    | "deprecated"
+    ;
+
+declare type RuleSeverity =
+    | "INFO"
+    | "MINOR"
+    | "MAJOR"
+    | "CRITICAL"
+    | "BLOCKER"
+    ;
+
 declare type Rule = {
-  id: string;
-  name: string;
-  severity: "CRITICAL" | "INFO" | "MAJOR" | "MINOR";
-  technologies: string[];
-  status: string;
+  key: string;
+  title: string;
+  language: string;
+  type: RuleType;
+  status: RuleStatus;
+  remediation: {
+    func: string;
+    constantCost: number;
+  };
+  tags: string[];
+  severity: RuleSeverity;
+  htmlDescription: string;
+  terms: string;
 };
 
 declare type RuleMeta = {
-  technologies: string[];
-  severities: string[];
-  statuses: string[];
+  languages: Set<string>;
+  severities: Set<RuleSeverity>;
+  statuses: Set<RuleStatus>;
 };
 
-declare type RuleList = {
-  items: Rule[];
-  meta: RuleMeta;
+declare type RulesSpecifications = {
+  version: string;
+  rules: {
+    [ruleKey: string]: {
+      [language: string]: Rule
+    }
+  };
 };

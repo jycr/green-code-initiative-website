@@ -1,0 +1,3073 @@
+{
+  "version": "feature-add-index-json-file-SNAPSHOT",
+  "rules": {
+    "GCI1": {
+      "java": {
+        "title": "Avoid Spring repository call in loop or stream operations",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "50min"
+        },
+        "tags": [
+          "performance",
+          "spring",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI1",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI1.html",
+        "terms": "access also arraylist arrays aslist batch calculations call code compliant consumption database employee employeerepository employees energy example final findallbyid findbyid foreach foreachordered induces instead integer ispresent like list loop multiple noncompliant operation optional peek private repository single solution spring stream superfluous therefore tolist unnecessary"
+      }
+    },
+    "GCI10": {
+      "python": {
+        "title": "Avoid using unoptimized vector images",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "60min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI10",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI10.html",
+        "terms": "02724 177132 19028 2000 2022 210mm 264583 297mm b0a8486541 calc calque circle code comments common compliant contains created data dessin2 docname drawing example ff00ff fill generated groupmode height http images inkscape label layer layer1 metadata namespaces path111 sodipodi softwares solution sourceforge stroke style svg5 unnecessary version viewbox width with xmlns"
+      }
+    },
+    "GCI11": {
+      "javascript": {
+        "title": "Multiple access of same DOM element should be limited",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI11",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI11.html",
+        "terms": "access accessed accesses accessing also assigning avoid best block blockelement browser cached called clientheight clientwidth cnumr code compliant concise const developers document documentation each efficient element enhances example expensive explanatory find first getelementbyid height heres holds illustrate improved improves issue javascript leading likely makes model more mozilla multiple needs noncompliant object only operation operations performance potentially practices property readability reading reduce redundant reference relatively requested resources resulting rule second self separate specific subsequent technology terms that this time times tips traversals traverse tree twice understand variable when width writing"
+      }
+    },
+    "GCI12": {
+      "javascript": {
+        "title": "Multiple style changes should be batched",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI12",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI12.html",
+        "terms": "600px 800px addclass allows applied applying batch batching best better browser browsers changes class cnumr color combining compliant disrupt documentation element error example first height heres however illustrate improving individually intensive issue issues javascript lead making mechanisms minimizes modify multiple noncompliant number once operations optimization optimize overall page performance practices process properties reflows rendering repaints resource resources rule script second several similar single style that this through trigger when while width"
+      }
+    },
+    "GCI13": {
+      "javascript": {
+        "title": "API collections should be preferred with pagination",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "30min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "nestjs",
+          "performance"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "TYPESCRIPT"
+        ],
+        "key": "GCI13",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI13.html",
+        "terms": "allows amount amounts articles avoid bandwidth best blog built class cnumr compliant conserving controller currentpage data dataset datasets dealing decorated devices documentation efficiency ensures entire especially fetching filtering find framework helper helps important improving instead interface issue items large limited method mobile necessary nest nestjs network noncompliant number only optimize optimizing over overall package paginate pagination particularly performance posts power practices processing promise public reduces reducing relevant request requests resource resources response retrieving rule single smaller strategies string subset tasks test that this time totalpages transferred transferring transmitted unlocking usage users using when with work"
+      }
+    },
+    "GCI2": {
+      "python": {
+        "title": "Avoid multiple if-else statement",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI2",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI2.html",
+        "terms": "advantage assume because called case code complexity compliant conditional cyclomatic differents elif else elseif example explicit explicitly functional hierarchical impact implicit implicity index instead level levels many match maximum more multiple must names number over performance possible reduce refactor return rules same should solution sometimes statement statements switch that think three times twice used using variable warnings will"
+      },
+      "java": {
+        "title": "Avoid multiple if-else statement",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI2",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI2.html",
+        "terms": "advantage assume because break called case code complexity compliant conditional cyclomatic default differents else elseif example explicit explicitly functional hierarchical impact implicit implicity index instead level levels many maximum more multiple must names number over performance possible reduce refactor return rules same should solution sometimes statement statements switch that think three times twice used using variable warnings will"
+      },
+      "php": {
+        "title": "Avoid multiple if-else statement",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI2",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI2.html",
+        "terms": "advantage assume because break called case code complexity compliant conditional cyclomatic default differents else elseif example explicit explicitly functional hierarchical impact implicit implicity index instead level levels many maximum more multiple must names number over performance possible reduce refactor return rules same should solution sometimes statement statements switch that think three times twice used using variable warnings will"
+      }
+    },
+    "GCI203": {
+      "python": {
+        "title": "Detect unoptimized image format",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "60min"
+        },
+        "tags": [
+          "performance",
+          "user-experience",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI203",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI203.html",
+        "terms": "accessibility advantages animated animation based because bitmap cached circle code compliant decorative designers despite diagrams directly easy edited embedded example file fill format generally gifs graphics graphs greater green height html icons image images indexed interactivity into javascript jpegs lack less load logos making means much need needing other over perfect pixel pngs possible public quality recommended render require resolution responsive return scalable scale server simple site size smaller solution some stroke svgs taxing testimage than therefore they theyre used using usually utilisation vector void website when whereas which width will without yellow your"
+      }
+    },
+    "GCI22": {
+      "php": {
+        "title": "Use of methods for basic operations",
+        "type": "CODE_SMELL",
+        "status": "deprecated",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI22",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI22.html",
+        "terms": "basic code compliant example methods noncompliant operations solution"
+      }
+    },
+    "GCI24": {
+      "java": {
+        "title": "Returned SQL results should be limited",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance",
+          "sql"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVA",
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI24",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI24.html",
+        "terms": "about amount amounts application articles because between blog certainly compliant consume consumption customers data database documentation done dont efficiency elements email engine example fetch fetching first from good idea improving information intensive involve issue large larger limit limiting lowers manual more mysql name need needs network noncompliant number offset often once only optimization over pagination performance postgresql posts processing queries query reduce reference resource resources restricting result results retrieve return returned rows select significant size store string table that therefore this transferred transmitting turn which will"
+      },
+      "javascript": {
+        "title": "Returned SQL results should be limited",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance",
+          "sql"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVA",
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI24",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI24.html",
+        "terms": "about amount amounts application articles because between blog certainly compliant const consume consumption customers data database documentation done dont efficiency elements email engine example fetch fetching first from good idea improving information intensive involve issue large larger limit limiting lowers manual more mysql name need needs network noncompliant number offset often once only optimization over pagination performance postgresql posts processing queries query reduce reference resource resources restricting result results retrieve return returned rows select significant size store table that therefore this transferred transmitting turn which will"
+      }
+    },
+    "GCI25": {
+      "javascript": {
+        "title": "Images should not have an empty source attribute",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "LOW"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "jsx",
+          "performance",
+          "react"
+        ],
+        "defaultSeverity": "Minor",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI25",
+        "language": "javascript",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI25.html",
+        "terms": "accessibility articles assistive attempt attribute base blog browsers built causing compliance compliant confusion current destroy developers disabilities document documentation element empty errors essential fetch from hinder html image images impacting import including information issue lead logo make meaningful missing mozilla mylogo noncompliant other performance posts potentially proper provide react readers rely request requests requires resources result return rule screen server site some sources specification standards still technologies technology this unnecessary users valid when with your"
+      }
+    },
+    "GCI26": {
+      "javascript": {
+        "title": "Shorthand CSS notations should be used to reduce stylesheets size",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "LOW"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "jsx",
+          "performance",
+          "react"
+        ],
+        "defaultSeverity": "Minor",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI26",
+        "language": "javascript",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI26.html",
+        "terms": "abbreviated always application around articles because best blog bundle cant cnumr compliant conserving consolidates continue create definition depending developers documentation done easier employing energy environmental example font footprint frequently grouped help here improve issue left listed margin marginbottom marginleft marginright margins margintop more mozilla must noncompliant notations number only optimization posts practices properties property read reduce reducing related resources shorthand streamlines style stylesheets succinct technology that therefore these this time together ultimately usage using various want weight works your youre"
+      }
+    },
+    "GCI27": {
+      "java": {
+        "title": "Use System.arraycopy to copy arrays",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI27",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI27.html",
+        "terms": "access allow also array arraycopy arrays boolean cache case clone code compiler compliant consuming copy copying copyof data dedicated designed efficient especially example full hardware heavy indeed inside integrate length less loop looping loops make mechanisms method methods moreover most must native noncompliant optimization optimizations optimized outlawed performance poorly potentially processing processor programs reduce resource return single size slightly solution source spend such system table that these they time twice using when will"
+      }
+    },
+    "GCI28": {
+      "java": {
+        "title": "Optimize read file exceptions",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "error-handling",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI28",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI28.html",
+        "terms": "catch code compliant example exception file fileinputstream filename filenotfoundexception illegalargumentexception inputstream ioexception logger null optimize public read readpreferences solution string throw throws void"
+      }
+    },
+    "GCI29": {
+      "javascript": {
+        "title": "CSS animations should be avoided",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "jsx",
+          "performance",
+          "react"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI29",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI29.html",
+        "terms": "advisable affecting also animations articles associated avoid battery best black blog border browser case cases certain change changes cnumr complex compliant constant consume consumption continuous contribute create creating decreased design devices documentation ease efficient energy especially experience friendly functions generally helps high impact important increased inform instruction issue javascript leading life limited limiting mobile more navigator noncompliant note opacity optimization overall page particularly performance positively posts power practices processing properties rendering resources rotate scale scenarios should significant slower solid style that there they this transform transition translate upcoming usage user where while will with"
+      }
+    },
+    "GCI3": {
+      "java": {
+        "title": "Avoid getting the size of the collection in the loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "bad-practice",
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI3",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI3.html",
+        "terms": "advance avoid avoided below code collection compliant consumes cycles each example execute fetch fetching getdata illustrates iterating iteration less list noncompliant objlist over power provided saves should size solution string therefore this what when"
+      },
+      "php": {
+        "title": "Avoid getting the size of the collection in the loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "bad-practice",
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI3",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI3.html",
+        "terms": "advance apple array avoid banana carrot code collard collection compliant consumes count cycles dump each example fetch fetching iterating iteration iterator left less method methods note operand orange over power right same saves size sizeof solution statements that therefore this using when while with work would"
+      }
+    },
+    "GCI30": {
+      "javascript": {
+        "title": "Print stylesheet should be provided",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "LOW"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "30min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "jsx",
+          "performance",
+          "react"
+        ],
+        "defaultSeverity": "Minor",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI30",
+        "language": "javascript",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI30.html",
+        "terms": "adjust adjusting also applied articles attribute best blog cnumr compliant consumption content contributing control create decide define designed documentation elements ensure environmental essential file font friendly head helps hide hiding href html include includes indicate inside issue layout limiting link make media modifications number offers only optimizing other page pages paper posts practices presented print printed printer printing provide reducing resources rule saving section should sizes specific specifically style styles stylesheet suitable sustainability text that this title type unnecessary users using value well when with your"
+      }
+    },
+    "GCI31": {
+      "javascript": {
+        "title": "Lighter formats should be used for image files",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "LOW"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance",
+          "image"
+        ],
+        "defaultSeverity": "Minor",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI31",
+        "language": "javascript",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI31.html",
+        "terms": "address also always appropriate articles assets avif balance bandwidth based best better between blog browser browsers case cases choose cnumr codec compatibility compliant compression consider considered consume consumption content data depending design developed different display documentation dodonut efficiency efficient energy environmental essential evaluate experience fail file files find following format formats friendly generally google graphics greenspector high highly image images impact improving increasing issue larger lightweight load loss modern more most multiple noncompliant older optimal optimize optimized optimizing overall page performance posts practices provides quality recognize recommend reduce relatively remember required requirements resources same scalable scaled should significant size sizes some specific supply test that them this transfer types unoptimized used user using vary vector video webp website which without your"
+      }
+    },
+    "GCI32": {
+      "java": {
+        "title": "Initialize builder/buffer with the appropriate size",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI32",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI32.html",
+        "terms": "advance append appended appropriate buffer builder characters code compliant consumes cycles energy example have initialize know less many never noncompliant resized saves size solution stringbuilder therefore they this thus will with would"
+      }
+    },
+    "GCI34": {
+      "php": {
+        "title": "Avoid using try-catch statement",
+        "type": "CODE_SMELL",
+        "status": "deprecated",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI34",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI34.html",
+        "terms": "1579453 1579457 637549804 855638 9188409999999 allows analyzed avoid block bytes case cases catch code complex compliant constructions consumes consumption context control created cycles data database define destruction differential energy environment error etsdiff example exception exemple exists file fixed generated given help identified identifier image imgfile impacts inside interest itself joules jpeg lengthen life logical loops measured measurement measuring multiple must open opening original parts php4 picture prefer print product reduce reported results rule solution sonarqube source sources statement storage terminals tests their these this three throw thrown tool transfer trycatch unnecessary using values variable well when works"
+      }
+    },
+    "GCI35": {
+      "python": {
+        "title": "Avoid using try-catch statement with file open operation in try block",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI35",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI35.html",
+        "terms": "avoid block blocks case cases catch close code complex compliant constructions consumes created cycles data deals destruction example except exception file finally inside isfile itself logical loops moment multiple only open parts path prefer print read rule solution such tests this thrown trycatch unnecessary using variable when with"
+      },
+      "php": {
+        "title": "Avoid using try-catch statement with file open operation in try block",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI35",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI35.html",
+        "terms": "1579453 1579457 637549804 855638 9188409999999 allows analyzed avoid block blocks bytes case cases catch code complex compliant constructions consumes consumption context control created cycles data database deals define destruction differential energy environment error etsdiff example exception exemple exists file fixed generated given help identified identifier image imgfile impacts inside interest itself joules jpeg lengthen life logical loops measured measurement measuring moment multiple must only open opening original parts php4 picture prefer print product reduce reported results rule solution sonarqube source sources statement storage terminals tests their these this three throw thrown tool transfer trycatch unnecessary using values variable well when with works"
+      }
+    },
+    "GCI36": {
+      "html": {
+        "title": "Autoplay should be avoided for video and audio content",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "video",
+          "audio"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI36",
+        "language": "html",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/html/GCI36.html",
+        "terms": "actively also appropriate areas articles audio audiofile autoplay autoplaying avoid battery best blog browsers cnumr commence compliant conception configuring connectivity consume consumes consumption content contributing controls costs crucial data designersethiques devices documentation dont download drain ecoindex energy engaging environmental especially even files from good however impact increased internet issue lead leading leads life limited media might mitigate mobile noncompliant none particularly plans playback poor posts potentially practices preload preloading prevent resources segments settings some sound still this unnecessary usage users video videofile videos webm when with without"
+      },
+      "javascript": {
+        "title": "Autoplay should be avoided for video and audio content",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "react-native",
+          "video",
+          "audio"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI36",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI36.html",
+        "terms": "actively also appropriate areas articles audio audiofile auto autoplay autoplaying avoid battery best blog browsers cnumr commence compliant conception configuring connectivity consume consumes consumption content contributing controls costs crucial data designersethiques devices documentation dont download drain ecoindex energy engaging environmental especially even files from good however impact increased internet issue lead leading leads life limited media might mitigate mobile noncompliant none particularly plans playback poor posts potentially practices preload preloading prevent resources return segments settings some sound still this unnecessary usage users video videos when with without"
+      }
+    },
+    "GCI4": {
+      "python": {
+        "title": "Avoid using global variables",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI4",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI4.html",
+        "terms": "calls code compliant consumed cycles details example function global length local noncompliant print solution variables when"
+      },
+      "php": {
+        "title": "Avoid using global variables",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI4",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI4.html",
+        "terms": "aglobal arguments calling check code compliant computing console cycles engine example exists function gives global globallength hello inside interpretation length local must parameters passing prefer saving scopes solution somevarlength somvarlength status string that them thus time value variable variables when"
+      }
+    },
+    "GCI404": {
+      "python": {
+        "title": "Use generator comprehension instead of list comprehension in for loop declaration",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI404",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI404.html",
+        "terms": "behaviors code compliant comprehension comprehensions compute declaration declared details documentation each efficient example from generator generators indexing instead iterated lack languages lazy list lists loop memory method more other over programming python range replaced resemble safely solution some store their they thus unlike values var2 when with"
+      }
+    },
+    "GCI5": {
+      "java": {
+        "title": "Use PreparedStatement instead of Statement",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "performance",
+          "sql",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI5",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI5.html",
+        "terms": "because calculations code commit compliant connection consumption createstatement energy every example executequery executeupdate induce insert instead into john name noncompliant once only persons preparedstatement preparestatement public query select setint setstring solution statement superfluous therefore thus time unnecessary used values void whereas will would"
+      }
+    },
+    "GCI500": {
+      "java": {
+        "title": "Batch: Sensor Coalesce",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "batch",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI500",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI500.html",
+        "terms": "200000 allows application before being capturing code compliant consumption data delay delivered events example fifo hardware hence instead interrupts lower maxreportlatencyus microseconds needs normal number once positive possible power processor queue receives reduce reducing registerlistener reported sensor sensoreventlistener sensormanager sequentially setting soon state stay stored switch temporarily value while with"
+      }
+    },
+    "GCI501": {
+      "java": {
+        "title": "Batch: Job Coalesce",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "3h"
+        },
+        "tags": [
+          "batch",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI501",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI501.html",
+        "terms": "1000 adapter alarm alarmmanager android batch battery build builder class code combine compared compliant component consumption context currenttimemillis custom example getbroadcast getsystemservice info intent introduces jobinfo jobs jobscheduler lollipop manager name network pendingintent reduced release schedule scheduler scheduling service setalarm setperiodic setpersisted setrepeating setrequirednetworktype setrequirescharging supports sync system that this true type unmetered void wakeup"
+      }
+    },
+    "GCI502": {
+      "java": {
+        "title": "Bottleneck: Internet In The Loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "3h"
+        },
+        "tags": [
+          "optimized-api",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.2",
+        "defaultSeverity": "Critical",
+        "key": "GCI502",
+        "language": "java",
+        "severity": "CRITICAL",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI502.html",
+        "terms": "also another battery because calling closing code compliant connection consists consuming continuously control data each early evil example exchange extremely http httpurlconnection inefficient instead internet intervals loop most must myarray network notifications obtain occurs openconnection opening operation polling power practice prevented push regular root save since structure that this typically using when while within"
+      }
+    },
+    "GCI503": {
+      "java": {
+        "title": "Bottleneck: Wifi Multicast Lock",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "bottleneck",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Minor",
+        "key": "GCI503",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI503.html",
+        "terms": "acquire acquiring addressed addresses battery call cause code compliant context createmulticastlock device disabled drain example explicitly extra filters getapplicationcontext getsystemservice lock multicast multicastlock must needed normally noticeable packets processing receive release service stack these when wifi wifimanager will with"
+      }
+    },
+    "GCI504": {
+      "java": {
+        "title": "Bottleneck: Uncompressed Data Transmission",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "bottleneck",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI504",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI504.html",
+        "terms": "along android case classical client code compliant compressed compressing compression consumes data decompressed efficiency energy example file from getoutputstream green gzipoutputstream http https httpsurlconnection httpurlconnection improved infrastructure initiative instead least making means more network node object openconnection other outputstream over post precisely request side stream than transmitted transmitting using with without"
+      }
+    },
+    "GCI505": {
+      "java": {
+        "title": "Idleness: Keep Screen On (addFlags)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "key": "GCI505",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI505.html",
+        "terms": "absolutely activity addflags android another applications asleep attribute avoid avoided battery code compliant developers device draining example falls file flag getwindow hence idle implement keep keeping keepscreenon layout left necessary quickly screen should that their this typically unless using"
+      },
+      "xml": {
+        "title": "Idleness: Keep Screen On (addFlags)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "key": "GCI505",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI505.html",
+        "terms": "2sur5 absolutely activity android another applications asleep attribute avoid avoided battery code compliant creedengo developers device draining example falls false file flag height hence http idle implement keep keeping keepscreenon layout left match necessary parent quickly relativelayout schemas score screen should that their this true typically unless using width xmlns"
+      },
+      "swift": {
+        "title": "Idleness: Keep Screen On (addFlags)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "key": "GCI505",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI505.html",
+        "terms": "absolutely asleep avoid avoided battery code compliant developers device disable draining example falls hence idle isidletimerdisabled keeping left necessary quickly screen shared should that timer true typically uiapplication unless with"
+      },
+      "javascript": {
+        "title": "Idleness: Keep Screen On (addFlags)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "react-native",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI505",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI505.html",
+        "terms": "absolutely activate activated activatekeepawake alert alignitems android asleep avoid avoided battery center code compliant default device draining example export falls flex function hence idle issue justifycontent keepawakeexample keeping left necessary never noncompliant quickly return screen should sleep style text that this unless usekeepawake view will"
+      }
+    },
+    "GCI506": {
+      "java": {
+        "title": "Idleness: Keep Screen On (setFlags)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "key": "GCI506",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI506.html",
+        "terms": "absolutely activity android another applications asleep attribute avoid avoided battery code compliant developers device draining example falls file flag getwindow hence idle implement keep keeping keepscreenon layout left necessary quickly screen setflags should that their this typically unless using"
+      }
+    },
+    "GCI507": {
+      "java": {
+        "title": "Idleness: Keep Cpu On",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1h"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI507",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI507.html",
+        "terms": "absolutely along android asleep avoid avoided battery called code compliant context developers device draining example falls feature getsystemservice hence idle invoking keeping left levelandflags lock locks manager manifest necessary newwakelock partial permission power powermanager quickly service should specific string system that their typically unless wake wakelock with"
+      },
+      "xml": {
+        "title": "Idleness: Keep Cpu On",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1h"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI507",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI507.html",
+        "terms": "2sur5 absolutely along android asleep avoid avoided battery called code compliant creedengo developers device draining example falls feature hence idle invoking keeping left levelandflags lock locks manager manifest name necessary newwakelock permission power powermanager quickly score screen service should specific string system that their typically unless uses wake wakelock with"
+      }
+    },
+    "GCI508": {
+      "java": {
+        "title": "Idleness: Durable Wake Lock",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI508",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI508.html",
+        "terms": "abuse acquire after android application avoid avoided battery because built call challenge check code compliant device devices does down example excessively expires finally general given have hence here indicate instead lint lock long mechanism missing needs obtain over period possible powermanager prevent principle release released running soon stay sure that this time timeout wake wakelock will your"
+      }
+    },
+    "GCI509": {
+      "java": {
+        "title": "Idleness: Rigid Alarm",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1d"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI509",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI509.html",
+        "terms": "ability after alarm alarmmanager alarms alarmtype already also android applications apps battery built care check checked code compliant context device discouraged doze drain exact example fires frequency from getsystemservice high idle impact inexact intervalmillis life lint listener method minimize mode most multiple operation over power preferable prior reduce reducing repeating same service setexact setexactandallowwhileidle setinexactrepeating setrepeating shortalarm should significantly similarly strongly synchronizes targethandler them they this thus time triggeratmillis triggeratmilllis type unnecessarily used using when with"
+      },
+      "swift": {
+        "title": "Idleness: Rigid Alarm",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1d"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI509",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI509.html",
+        "terms": "ability allow amount amounts approach change code compliant date detect dramatically example execution fire flexibility idling increases increasing later optimize power processor property repeats responsiveness savings scheduled scheduledtimer setting shift small specify spends system than that their them this time timer timers tolerance tolerances true users using while will within withtimeinterval your"
+      }
+    },
+    "GCI510": {
+      "java": {
+        "title": "Idleness: Continuous Rendering",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI510",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI510.html",
+        "terms": "allowing battery choosing code compliant continuously default developers dirty display does example glsurfaceview idle improve instead life mode need opengl overall performance rendering rendermode setrendermode surfaceview system this updated using view when wishing with"
+      }
+    },
+    "GCI511": {
+      "java": {
+        "title": "Idleness: Keep Voice Awake",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "idleness",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI511",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI511.html",
+        "terms": "activity allowing allows awake battery boolean code compliant continue decide default device does drain during even example false hence holds interaction keep keepawake lock removes running screen session setkeepawake setting sleep state system that this true voice voiceinteractionsession voicesession wake whether while will work"
+      }
+    },
+    "GCI512": {
+      "java": {
+        "title": "Leakage: Camera Leak",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.2",
+        "defaultSeverity": "Critical",
+        "key": "GCI512",
+        "language": "java",
+        "severity": "CRITICAL",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI512.html",
+        "terms": "addition android battery built calls camera carefully code common compliant conditions consequently data devices drain enters environmental example expensive failing have hours idle image just measure most motion must open orientation pairwised paused point positioning powered process release sensor sensors state stopped that their these they typically unnecessarily various when while"
+      }
+    },
+    "GCI513": {
+      "java": {
+        "title": "Leakage: Location Leak",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.2",
+        "defaultSeverity": "Minor",
+        "key": "GCI513",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI513.html",
+        "terms": "1000l addition android battery built calls camera carefully code common compliant conditions consequently data devices drain enters environmental example expensive failing getsystemservice have hours idle image just location locationmanager measure most motion must orientation pairwised paused point positioning powered process provider removeupdates requestlocationupdates sensor sensors service state stopped that their these they this typically unnecessarily various when while"
+      },
+      "swift": {
+        "title": "Leakage: Location Leak",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.2",
+        "defaultSeverity": "Minor",
+        "key": "GCI513",
+        "language": "swift",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI513.html",
+        "terms": "addition advanced after application appropriate arises authorization battery calls camera carefully class cllocation cllocationmanager cllocationmanagerdelegate code come common commonly compliant conditions consequently continue corelocation data delegate devices didupdatelocations drain enters environmental equipped example failing func hours idle image import include init intensive interacting issue just location locationmanager locations locationtracker longer manager measure methods most motion must needed nsobject only orientation override paired paused point positioning possibly power process referred request requestalwaysauthorization self sensor sensors start startupdatinglocation state stop stops stopupdatinglocation such super that these they typical typically unnecessarily updates user variety various when while with"
+      }
+    },
+    "GCI514": {
+      "java": {
+        "title": "Leakage: SensorManager Leak",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.2",
+        "defaultSeverity": "Major",
+        "key": "GCI514",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI514.html",
+        "terms": "accelerometer addition android battery built calls camera carefully code common compliant conditions consequently context data delay devices drain enters environmental example expensive failing getdefaultsensor getsystemservice have hours idle image just measure most motion must normal orientation pairwised paused point positioning powered process registerlistener sensor sensormanager sensors service smanager state stopped that their these they this type typically unnecessarily unregisterlistener various when while"
+      },
+      "swift": {
+        "title": "Leakage: SensorManager Leak",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.2",
+        "defaultSeverity": "Major",
+        "key": "GCI514",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI514.html",
+        "terms": "accelerometer additionally background battery becomes built calls camera carefully cmmotionmanager code common compliant conditions consequently consume coremotion data devices drain enters environmental error example failing func handle have idle image import inactive isaccelerometeractive isaccelerometeravailable issue main managed measure most motion motionmanager must orientation point positioning power processing quickly sensor sensors significant start startaccelerometerupdates startmotionupdates state stop stopaccelerometerupdates stopmotionupdates that their these they typically unnecessarily updates various when while"
+      }
+    },
+    "GCI515": {
+      "java": {
+        "title": "Leakage: Media Leak (MediaRecorder)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI515",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI515.html",
+        "terms": "addition also audio battery being call class code codecs compliant consumption continuous creation devices example failure held immediately instances lead longer media mediarecorder memory method mobile needed object record recorder release resources solution such this unnecessary used video with"
+      },
+      "swift": {
+        "title": "Leakage: Media Leak (MediaRecorder)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI515",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI515.html",
+        "terms": "12000 addition also appendingpathcomponent audio audiorecorder avaudioquality avaudiorecorder avencoderaudioqualitykey avformatidkey avfoundation avnumberofchannelskey avsampleratekey battery being catch class code codecs compliant consumption continuous creation devices error example failure func getdocumentsdirectory handle held high import instances isrecording kaudioformatmpeg4aac lead longer memory method mobile needed object properly rawvalue record recorder recording release resources settings solution startrecording stop stoprecording such these unnecessary used"
+      }
+    },
+    "GCI516": {
+      "java": {
+        "title": "Leakage: Media Leak (MediaPlayer)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "leakage",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI516",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI516.html",
+        "terms": "addition also audio battery being call class code codecs compliant consumption continuous control creation devices example failure files held immediately instances lead longer media mediaplayer memory method mobile needed object playback player release resources solution streams such this unnecessary used video with"
+      }
+    },
+    "GCI517": {
+      "java": {
+        "title": "Optimized API: Fused Location",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "optimized-api",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "key": "GCI517",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI517.html",
+        "terms": "accelerometer android apis battery cell code combines compliant dependency developer example file from fused google gradle gyroscope import instead life location magnetometer maximize networks officially other package play provider recommended sensors service services signals solution then thus well which with"
+      }
+    },
+    "GCI518": {
+      "java": {
+        "title": "Optimized API: Bluetooth Low-Energy",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "optimized-api",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.6",
+        "defaultSeverity": "Major",
+        "key": "GCI518",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI518.html",
+        "terms": "alternative android append aware benefits bluetooth both classic client code compliant consumption contrast designed developers devices energy example features from import imports lower means order paired power provide purpose save side significantly solution this very"
+      }
+    },
+    "GCI519": {
+      "java": {
+        "title": "Power: Charge Awareness",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "0min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design",
+          "ios"
+        ],
+        "ecoScore": "1.0",
+        "defaultSeverity": "Info",
+        "key": "GCI519",
+        "language": "java",
+        "severity": "INFO",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI519.html",
+        "terms": "action actions always battery behavior broadcast changes charging code compliant connected device different disconnected example good intent intentfilter level levels monitor okay power receiver registered significant state station that when with"
+      },
+      "xml": {
+        "title": "Power: Charge Awareness",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "0min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design",
+          "ios"
+        ],
+        "ecoScore": "1.0",
+        "defaultSeverity": "Info",
+        "key": "GCI519",
+        "language": "xml",
+        "severity": "INFO",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI519.html",
+        "terms": "5sur5 action actions always android battery behavior broadcast changes charging code compliant connected core creedengo device different disconnected example filter good greencodeinitiative intent level levels monitor myreceiver name okay power receiver registered score service significant state station testapp that when with"
+      },
+      "swift": {
+        "title": "Power: Charge Awareness",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "0min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design",
+          "ios"
+        ],
+        "ecoScore": "1.0",
+        "defaultSeverity": "Info",
+        "key": "GCI519",
+        "language": "swift",
+        "severity": "INFO",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI519.html",
+        "terms": "addobserver also always battery batterylevel batteryleveldidchangenotification batterystate batterystatedidchangenotification behavior changes charge code compliant connected current default determine device different disconnected example forname good level levels notificationcenter notifications object power properties query queue receive register state station that time uidevice using when your"
+      }
+    },
+    "GCI520": {
+      "java": {
+        "title": "Power: Save Mode Awareness",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "0min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "1.0",
+        "defaultSeverity": "Info",
+        "key": "GCI520",
+        "language": "java",
+        "severity": "INFO",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI520.html",
+        "terms": "account action addaction battery broadcast call changed code compliant create desirable device entering example existence exiting higly implies intent intentfilter into ispowersavemode life mode power powermanager programmaticaly receiver registered save taking when with"
+      },
+      "xml": {
+        "title": "Power: Save Mode Awareness",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "0min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "1.0",
+        "defaultSeverity": "Info",
+        "key": "GCI520",
+        "language": "xml",
+        "severity": "INFO",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI520.html",
+        "terms": "5sur5 account action android battery broadcast call changed code compliant core creedengo desirable device entering example existence exiting filter greencodeinitiative higly implies intent into ispowersavemode life mode myreceiver name power powermanager programmatically receiver registered save score service taking testapp when with"
+      },
+      "swift": {
+        "title": "Power: Save Mode Awareness",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "0min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "1.0",
+        "defaultSeverity": "Info",
+        "key": "GCI520",
+        "language": "swift",
+        "severity": "INFO",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI520.html",
+        "terms": "accordingly active adapt addobserver also changes check code compliant data default determine device enabled example forname frequency islowpowermodeenabled mode name notification notificationcenter notifications nsprocessinfopowerstatedidchange object power processinfo property query queue receive reduce register resources state time update usage using when whether your"
+      }
+    },
+    "GCI521": {
+      "java": {
+        "title": "Sobriety: Thrifty Motion Sensor",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI521",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI521.html",
+        "terms": "always because best code compliant constant context detection doesnt example frequently geomagnetic getdefaultsensor getsystemservice gyroscope however instead lower magnetometer monitoring more most motion noisy other outdoors power prefer rotation sensor sensormanager service similar smanager than this type used uses using vector vectors when which will work"
+      }
+    },
+    "GCI522": {
+      "java": {
+        "title": "Sobriety: Brightness Override",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "key": "GCI522",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI522.html",
+        "terms": "adaptive android battery brightness careful code compliant constant current deactivating depending developers disable environment example feature field full getattributes getwindow improve introduced layoutparams life light lower override programmatically raises reasons screen screenbrightness setting some this when windowmanager with"
+      },
+      "swift": {
+        "title": "Sobriety: Brightness Override",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "ios",
+          "eco-design"
+        ],
+        "key": "GCI522",
+        "language": "swift",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI522.html",
+        "terms": "absolutely adapt avoid avoided battery brightness cgfloat code compliant developers device draining environment example float force forcing hence keeping main necessary screen should typically uiscreen unless with"
+      },
+      "javascript": {
+        "title": "Sobriety: Brightness Override",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "react-native",
+          "eco-design"
+        ],
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI522",
+        "language": "javascript",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI522.html",
+        "terms": "absolutely adapt android async avoid avoided battery brightness careful code compliant deactivating default depending developers devices disable draining environment example expo export feature forced forcing from function hence here import improve introduced issue keeping life light module native necessary programmatically react reasons return screen setsystembrightnessasyn should some text this unless useeffect view when"
+      }
+    },
+    "GCI523": {
+      "java": {
+        "title": "Sobriety: Thrifty Geolocation (minTime)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "key": "GCI523",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI523.html",
+        "terms": "60000l 60000ms application battery call changed code compliant conserve each example extent float greater have imperatively least lesser life listener location locationlistener locationmanager long meters milliseconds mindistance mintime must only passed primary provider refresh requestlocationupdates send should string than these this tool update when will with your"
+      },
+      "javascript": {
+        "title": "Sobriety: Thrifty Geolocation (minTime)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "react-native",
+          "eco-design"
+        ],
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI523",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI523.html",
+        "terms": "5000 accuracy accurate application based battery calculations complex compliant conserve console consumption critically crucial default developers devices documentation does enablehighaccuracy enablenetworkproviderasync enables example examples expo extended false from geolocation getcurrentposition google hardware help high highly import improve increase indicating involves issue leading less life location lower maximumage method minimize mobile mode more mozilla native navigator network noncompliant obtaining often opting option options pinpoint play power precision prefer prefers processing provider react reduce requesting requestpermissionsasync require requires resources service services strain technology that these this timeout true turn typically usage user uses warn which"
+      }
+    },
+    "GCI524": {
+      "java": {
+        "title": "Sobriety: Thrifty Geolocation Criteria",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI524",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI524.html",
+        "terms": "1000l apps awareness based best code compliant constant criteria energy example features getbestprovider high important instead level location locationmanager medium most point popular possible power provider requestlocationupdates setpowerrequirement thanks this true used using"
+      },
+      "swift": {
+        "title": "Sobriety: Thrifty Geolocation Criteria",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI524",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI524.html",
+        "terms": "accuracy activity activitytype additional also appropriate apps awareness best call causes cllocationmanager code compliant default degree deliver desiredaccuracy determine example features finally hardware helps higher isnt just know knows level location manager meters method most need needed needs perform performing popular position power precision property quick really requesting requestlocation setting single specify standard system than that this time type unless unnecessary update updates used users waste what will with within your"
+      }
+    },
+    "GCI525": {
+      "java": {
+        "title": "Sobriety: Thrifty Bluetooth Low Energy (setAdvertiseMode)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI525",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI525.html",
+        "terms": "advertise advertisemode advertisesettings advertising bluetooth builder calling capable client code compliant default device devices discovered energy establish example gatt latency link master mode most often power preferred process ready scan server setadvertisemode slave smart technology using when will with"
+      }
+    },
+    "GCI526": {
+      "java": {
+        "title": "Sobriety: Thrifty Bluetooth Low Energy (requestConnectionPriority)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI526",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI526.html",
+        "terms": "bluetooth bluetoothgatt capable client code compliant connection connectionpriority consumption device devices discovered energy establish example gatt high invoking link master most often power priority process ready recommended reduce requestconnectionpriority scan server slave smart smell technology using value will with"
+      }
+    },
+    "GCI527": {
+      "java": {
+        "title": "Sobriety: Thrifty Geolocation (minDistance)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI527",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI527.html",
+        "terms": "60000l 60000ms application battery call changed code compliant conserve each example extent float greater have imperatively least lesser life listener location locationlistener locationmanager long meters milliseconds mindistance mintime must only passed primary provider refresh requestlocationupdates send should string than these this tool update when will with your"
+      }
+    },
+    "GCI528": {
+      "java": {
+        "title": "Sobriety: Vibration Free",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI528",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI528.html",
+        "terms": "actuator added amplitude android behind call circumstances clear code compliant component consequence consumes context createoneshot default device discouraged effect especially example getdefaultvibrator getsystemservice hardware manager miniature motor must possible power service shaking since specific stands that this usage value vibrate vibrationeffect vibrator vibratormanager with"
+      }
+    },
+    "GCI529": {
+      "java": {
+        "title": "Sobriety: Thrifty Notification",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI529",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI529.html",
+        "terms": "1000 achieve api26 api31 aspect attributes audio builder building calls code compliant default does enough example extra getapplicationcontext getdefaulturi giving however importance important information long loud methods mode modern necessarily need notification notificationbuilder notificationchannel notificationmanager notifications object purpose ringtonemanager setsound setvibrate setvibrationpattern should test that there through type user vibrant when with"
+      }
+    },
+    "GCI530": {
+      "java": {
+        "title": "Sobriety: Torch Free",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "key": "GCI530",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI530.html",
+        "terms": "absolutely avoided because camera cameraaccessexception cameraid cameramanager cammanager catch code compliant component context energy example flashlight getcameraidlist getsystemservice intensive mode most must null printstacktrace programmatically service settorchmode string torch true turning with"
+      },
+      "swift": {
+        "title": "Sobriety: Torch Free",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "ios",
+          "eco-design"
+        ],
+        "key": "GCI530",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI530.html",
+        "terms": "absolutely avcapturedevice avoided back because builtinwideanglecamera code compliant component default else energy example flashlight guard hastorch intensive level lockforconfiguration methods mode most must noncompliant position programmatically return settorchmodeon torch torchmode turning unlockforconfiguration using video videodevice"
+      },
+      "javascript": {
+        "title": "Sobriety: Torch Free",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "react-native",
+          "eco-design"
+        ],
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI530",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI530.html",
+        "terms": "absolutely avoided axios because best cnumr code compliant component documentation energy example flashlight free from github https import intensive issue mobile mode most must native noncompliant practices programmatically react resources this torch turning with"
+      }
+    },
+    "GCI531": {
+      "java": {
+        "title": "Sobriety: High Frame Rate",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI531",
+        "language": "java",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI531.html",
+        "terms": "120f 120hz 60hz 90hz android call change code compatibility compliant content default despite devices display displays energy example float frame framerate frames frequency hence higher however level many optimize order raised rate refresh refreshes regular results saving second setframerate should supported surface this"
+      }
+    },
+    "GCI532": {
+      "java": {
+        "title": "Privacy: Google Tracker",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "privacy",
+          "social",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Minor",
+        "key": "GCI532",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI532.html",
+        "terms": "analytics android classes code compliant discouraged early example firebase firebaseanalytics first google hence hits import importing information means necessarily practice sends sensitive should stage step that this towards tracker"
+      }
+    },
+    "GCI533": {
+      "swift": {
+        "title": "Location updates pause disabled",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "creedengo",
+          "environment",
+          "sobriety",
+          "eco-design",
+          "ios"
+        ],
+        "ecoScore": "0.4",
+        "defaultSeverity": "Major",
+        "key": "GCI533",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI533.html",
+        "terms": "allowing applications battery behavior change cllocationmanager code compliant data default disable discouraged doing example false food improve life location manager might navigation pause pauseslocationupdatesautomatically period possible property sacrificing setting stops strongly system this time times unlikely updates user using when while without"
+      }
+    },
+    "GCI534": {
+      "swift": {
+        "title": "Motion Sensor Update Rate",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "ios",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI534",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI534.html",
+        "terms": "1000 acceleration accelerometer accelerometerupdateinterval apps battery before cmmotionmanager code compliant continuous core delivered device devicemotionupdateinterval dont events fewer form generated gyroscope gyroupdateinterval improving interval larger life magnetometerupdateinterval meets more motion need needs often properties receive recurring registering rotation soon specify that these they updates using your"
+      }
+    },
+    "GCI540": {
+      "xml": {
+        "title": "Batch: Service Boot Time",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "batch",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI540",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI540.html",
+        "terms": "2sur5 accumulation acknowledgement action addition android applications apps avoid battery because boot broadcast call code completed compliant component components context creedengo depletion developer device discouraged each example excessive filter from having however intent isolation kill know living long manifest more name next operations point rarely receiver remains results score services should silent specified started startservice technique that these they this thus time unexplained users view without"
+      }
+    },
+    "GCI543": {
+      "xml": {
+        "title": "Power: Compagnion In Background",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI543",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI543.html",
+        "terms": "2sur5 android background battery been bluetooth code companion compliant creedengo declaration device effect example excluded from manifest name negative optimizations over paired permission request score that uses using when with"
+      }
+    },
+    "GCI544": {
+      "xml": {
+        "title": "Power: Ignore Battery Optimizations",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1h"
+        },
+        "tags": [
+          "power",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI544",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI544.html",
+        "terms": "2sur5 allow android applications apps asks battery code compliant correctly creedengo example facilities holding ignore manifest many modes most name operate optimizations permission platform power provided request saving score should that them there this user uses various whitelist"
+      }
+    },
+    "GCI547": {
+      "xml": {
+        "title": "Sobriety: Dark UI (Bright Colors)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1h"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "ios",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI547",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI547.html",
+        "terms": "2sur5 android avoided beneficial bitmap bright code colors compliant consequently creedengo custom dark devices displaying example ffffff foreground foregroundtint height high images layout like luminance match mobile oled parent particularly resources score screens should textview values width with"
+      }
+    },
+    "GCI548": {
+      "xml": {
+        "title": "Sobriety: Dark UI (Theme)",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1h"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "android",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI548",
+        "language": "xml",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/xml/GCI548.html",
+        "terms": "2sur5 allowed android application apply avoided beneficial code colors compliant consumption creedengo dark decision default derive developers devices displaying energy example hence holo impact inheritance label light manifest mobile mytheme name native oled ones parent particularly score screens should significant since solution string style switching their theme themes this through will with within"
+      }
+    },
+    "GCI603": {
+      "swift": {
+        "title": "Animation Free",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "sobriety",
+          "environment",
+          "creedengo",
+          "ios",
+          "eco-design"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI603",
+        "language": "swift",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/swift/GCI603.html",
+        "terms": "animate animatekeyframes animation animations anytransition appealing applications battery bindings both cabasicanimation cakeyframeanimation catransition check checking code completion compliant create creating crucial delay developers devices done draining duration dynamic effectively engaging ensure example familiar functions implement important interface like method methods modifier need onappear ondisappear optimize options perform play powerful properties provide reviewing role smooth swiftui them this tools transition uikit uikits uiview unnecessary used user value various view well with withanimation withduration without"
+      }
+    },
+    "GCI66": {
+      "php": {
+        "title": "Avoid using double quote (\"), prefer using simple quote (')",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "bad-practice",
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI66",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI66.html",
+        "terms": "041966 2651545000000002 637548795 68520884 68588123 allows analyzed bytes case code compliant concatenatedstring consumption context control cycles database declaring define developers differential double during energy environment etsdiff example execution existent fixed from generated given help hugo identified impacts insert interest isstudent joules lastname lengthen life measured measurement measuring must myfunction name prevents quotes reduce reported results rule save searching simple single solution sonarqube source sources storage string student substituted terminals their these three tool transfer usage using values variables well when which will with"
+      }
+    },
+    "GCI67": {
+      "java": {
+        "title": "Use ++i instead of i++",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI67",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI67.html",
+        "terms": "code compliant creates cycles does example form noncompliant save solution temporary variable whereas"
+      },
+      "php": {
+        "title": "Use ++i instead of i++",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI67",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI67.html",
+        "terms": "11265758 11290494 2613885000000001 637548673 8163645000000002 allows analyzed bytes case code compliant consumption context control creates cycles database define differential does energy environment etsdiff example fixed form generated given help identified impacts interest joules lengthen life measured measurement measuring must reduce reported results rule save solution sonarqube source sources storage temporary terminals their these three tool transfer values variable well whereas"
+      }
+    },
+    "GCI69": {
+      "java": {
+        "title": "Do not call a function when declaring a for-type loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI69",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI69.html",
+        "terms": "allowed avoid boolean call calls code compliant cycles declaring each example exceptions function getmyvalue hasnext inside instanciation iterations iterator loop methods myvalue next noncompliant order println public saves solution such system type void when"
+      },
+      "php": {
+        "title": "Do not call a function when declaring a for-type loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI69",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI69.html",
+        "terms": "50000 50004 58341249999998 635057 637549590 allows analyzed avoid bytes call calls case code compliant consumption context control cycles database declaring define differential each energy environment etsdiff example fixed function generated given help identified impacts interest iteration joules lengthen life loop maxi measured measurement measuring must noncompliant order reduce reported results rule saves solution sonarqube source sources storage terminals their these three tool transfer type values well when"
+      },
+      "csharp": {
+        "title": "Do not call a function when declaring a for-type loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI69",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI69.html",
+        "terms": "actually analyzer before being caching call calling case compliant conditions consider console current depend despite dont each effect especially evaluated examples executed expected false fast free function functions getmaxvalue getters getvalue ignored included instead invariant issue issues iteration large lead loop maxvalue mutated noncompliant note number once performance positives processing property requires result return rule should side static still syntactically that they this time times warning when which writeline"
+      }
+    },
+    "GCI7": {
+      "python": {
+        "title": "Avoid creating getter and setter methods in classes",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI7",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI7.html",
+        "terms": "attribut avoid class client code compliant example getter getters increase init inutile memory modifier rcuprer return self setter setters solution they unnecessary usage using"
+      }
+    },
+    "GCI72": {
+      "python": {
+        "title": "Avoid SQL request in loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "performance",
+          "sql",
+          "spring",
+          "eco-design",
+          "creedengo",
+          "memory",
+          "network"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI72",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI72.html",
+        "terms": "append avoid calculation code compliant cursor example execute executing fetchmany fetchone format from induced join loop name network noncompliant performing queries range results select solution transfer unnecessary usage users where within"
+      },
+      "java": {
+        "title": "Avoid SQL request in loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "performance",
+          "sql",
+          "spring",
+          "eco-design",
+          "creedengo",
+          "memory",
+          "network"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI72",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI72.html",
+        "terms": "append basequery calculation catch close code compliant concat conn connection createstatement database drivermanager example executequery executing from getconnection getstring induced iterate java loop name network next noncompliant preparedstatement preparestatement println printstacktrace public queries query querybuilder resultset select setint solution sqlexception statement string stringbuilder system through tostring transfer unnecessary usage users void where while your"
+      },
+      "php": {
+        "title": "Avoid SQL request in loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "performance",
+          "sql",
+          "spring",
+          "eco-design",
+          "creedengo",
+          "memory",
+          "network"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI72",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI72.html",
+        "terms": "1005 1178614788 128585 15627099999998 221836 228225 2357214212 238884 249499 37447649999996 4625534999999 4685052932 4871645 49526 50385 51597 52189 637549572 746055 7629349999999 907586 allows analyzed basequery bytes calculation case close code compliant connect connection consumption context control could database dbhost dbname dbpass dbuser define differential energy environment etsdiff example executing fixed from function generated given help identified impacts induced interest iterate joules lengthen life loop measured measurement measuring must mysql name network noncompliant open public queries query reduce reported result results rule select solution sonarqube source sources storage terminals their these this three through tool transfer transfert unable unnecessary usage users values well where"
+      },
+      "csharp": {
+        "title": "Avoid SQL request in loop",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "performance",
+          "sql",
+          "spring",
+          "eco-design",
+          "creedengo",
+          "memory",
+          "network"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI72",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI72.html",
+        "terms": "basequery bulk calculation call close commandtext compliant conn consider console const createcommand dont enumerable especially example execute executed executereader executing from getstring ignored induces instead issue issues join large lead loop loops massify myconnectionstring name network next noncompliant number performance potentially queries query range reader select severe shouldnt single sqlcommand sqlconnection string this times transfer unnecessary usage users using warning when where while writeline"
+      }
+    },
+    "GCI74": {
+      "python": {
+        "title": "Don't use the query SELECT * FROM",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "network",
+          "sql",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI74",
+        "language": "python",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI74.html",
+        "terms": "address asterisk basequery code compliant cycles database example fields from have knowing name network noncompliant public query resolve saves schema select servers solution string symbol transfer users using void when"
+      },
+      "java": {
+        "title": "Don't use the query SELECT * FROM",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "network",
+          "sql",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI74",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI74.html",
+        "terms": "address asterisk basequery code compliant cycles database example fields from have knowing name network noncompliant public query resolve saves schema select servers solution string symbol transfer users using void when"
+      },
+      "php": {
+        "title": "Don't use the query SELECT * FROM",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "network",
+          "sql",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI74",
+        "language": "php",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/php/GCI74.html",
+        "terms": "040610499999999994 065223 2697937 637548827 779232 address allows analyzed asterisk basequery bytes case code compliant consumption context control cycles database define differential energy environment etsdiff example fields fixed from function generated given have help identified impacts interest joules knowing lengthen life measured measurement measuring must name network noncompliant public reduce reported resolve results rule saves schema select servers solution sonarqube source sources storage symbol terminals their these three tool transfer users using values well when"
+      }
+    },
+    "GCI75": {
+      "csharp": {
+        "title": "Don't concatenate strings in loops",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "bad-practice",
+          "eco-design",
+          "creedengo",
+          "performance"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI75",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI75.html",
+        "terms": "allocated allocation append buffer builder comparison compliant concatenate concatenated concatenations cost created creating dont each either empty example existent from ignored immutable instead issue iteration itself lead less loop loops marginal memory mutable mystring needed number once only overhead required requires resulting single small string stringbuilder strings then they this time tostring triggers typically update very waste when which with works"
+      }
+    },
+    "GCI76": {
+      "java": {
+        "title": "Avoid usage of static collections.",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "cwe",
+          "leak",
+          "eco-design",
+          "creedengo",
+          "memory"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI76",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI76.html",
+        "terms": "arraylist avoid avoidusageofstaticcollections class code collections collector compliant complicated containing create example fields final garbage goodusageofstaticcollections hashmap hashset instance lead leaks list make manage memory more needed private public singleton solution static them usage volatile want"
+      }
+    },
+    "GCI77": {
+      "java": {
+        "title": "Avoid using Pattern.compile() in a non-static context.",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "20min"
+        },
+        "tags": [
+          "performance",
+          "regex",
+          "eco-design",
+          "creedengo",
+          "memory"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI77",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI77.html",
+        "terms": "amount avoid avoidregexpatternnotstatic boolean class code compile compliant computational consumption context cycles example final find match matcher noncompliant operation pattern power private public requires return saves significant single solution static this using validregexpattern validregexpattern2 validregexpattern3"
+      }
+    },
+    "GCI78": {
+      "java": {
+        "title": "Don't set const parameter in batch update => Put its in query",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "sql",
+          "performance",
+          "memory"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI78",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI78.html",
+        "terms": "addbatch batch code compliant constant consumes creating cycles destroying dont dummyclass example getname getprice insert instead into list mytable noncompliant parameter public query setdouble setint setstring solution stmt string this unnecessarily update values void"
+      }
+    },
+    "GCI79": {
+      "java": {
+        "title": "Free resources",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "performance",
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI79",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI79.html",
+        "terms": "autocloseable char code compliant computer data example file fileinputstream implements input interface ioexception object print printfilejava7 private read resources save solution statement static system that throws void while with"
+      }
+    },
+    "GCI81": {
+      "csharp": {
+        "title": "Specify struct layout",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "memory",
+          "performance"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI81",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI81.html",
+        "terms": "analysis auto automatic breaking bytes cases catb code compliant contain default depth directly dont double examples field fields fine have here however http ignored improving indirectly interop issue know layout layoutkind likely little memory more most much mystruct optimize ordered other over packing performance potentially prevent process project public purposes read reasons reference reordering require requires saving sequential specified specify stay struct structlayout structs structure take that there this types uses usually when will with your"
+      }
+    },
+    "GCI82": {
+      "java": {
+        "title": "Variable can be made constant",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI82",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI82.html",
+        "terms": "14159 above although asking avoid because class classvariablereassigned classvariablereassignedbis clearer code compile compilers compliant const constant constructor declare eligible environmental error examples final footprint getlogger good ignored info initialized injected intent issue keyword keywords known local localintvariableincrement localvariableincrement localvariablenotreassigned localvariablereassigned logger made makes method moving myclass myfinalandnotreassignedobject mynonfinalandnotreassignedobject mynonfinalandreassignedobject neither never noncompliant object practice private processing public reassigned reducing requiring rule runtime should simple sonarqube static still string them themselves therefore this time titi toto type unlike used values vardefinedinclassnotreassigned vardefinedinclassnotused vardefinedinclassreassigned vardefinedinconstructorreassigned variable variables void when will"
+      },
+      "csharp": {
+        "title": "Variable can be made constant",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI82",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI82.html",
+        "terms": "although clearer code compile compilers compliant console const constant declare declared eligible environmental examples footprint good ignored injected intent issue known line made main makes never next practice processing public reassigned reducing requiring rule runtime should still them themselves therefore this time unlike values variable variables void when will writeline"
+      }
+    },
+    "GCI83": {
+      "csharp": {
+        "title": "Replace Enum ToString() with nameof",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI83",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI83.html",
+        "terms": "compile compliant console convert efficient enum example examples first format ignored impacts issue latter letter main more much nameof noncompliant private public replace requires resolved result rule runtime same should some specific string syntax this time tostring using value void when while will with without work writeline"
+      }
+    },
+    "GCI84": {
+      "csharp": {
+        "title": "Avoid async void methods",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI84",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI84.html",
+        "terms": "1000 additional affect also alternative application applications async asynchronous asyncmethod avoid avoidable await awaited because beneficial both cannot carbon cases cause chains class compliant complicates computing considered console consumption contribute crashes debug degradation degrade delay differ difficult directly discouraged doing downsides drawbacks edge efficient energy environmental error errors especially example exceptions experience failures footprint from fundamentally handling harder ignored impact impacts increase issue issues know lack lags lead leading making manage managing method methods more necessitating noncompliant obscure only operations optimize overall performance poor potential practice prevents provides public readily really recommended recover remain resources return robust should significant silent since solution some stability strongly systems task test that their them these they this undetected unhandled unnecessary usable user using void what when without work writeline youre"
+      }
+    },
+    "GCI85": {
+      "csharp": {
+        "title": "Make type sealed",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI85",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI85.html",
+        "terms": "abstract analyzer analyzers applying assemblies auto because being benefits bring class class1 class2 class3 class4 class5 class6 classes compiler compliant conditions consider currently default depth devblogs devirtualization does doesnt dotnet equals even examples except expected explanation explictly following from generated gethashcode hints however https identify ignored implicit improvements inheritable inherited inlining intended internal issue like make member method microsoft more noncompliant ones optimizations other overridable override performance prevents public rule script sealable sealed sealing should solution special static still strong such that then this those type virtual void want when will with"
+      }
+    },
+    "GCI86": {
+      "csharp": {
+        "title": "GC.Collect should not be called",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "10min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI86",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI86.html",
+        "terms": "able advisable also amount appropriate benefits blocking call called calling cases collect collection collector comparison complete compliant cost determine ephemeral examples excluded expensive forces from fully garbage gccollectionmode general generation generations have however ignored immediately issue know lightweight lived long make maxgeneration memory method mode most need noncompliant objects occur only operation optimized other outweighs public reclaimed recommended rule same sense should significant some take this time typically unnecessary very void when whose"
+      }
+    },
+    "GCI87": {
+      "csharp": {
+        "title": "Use collection indexer",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI87",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI87.html",
+        "terms": "access cheaper collection compliant count direct dont elementat enumerable examples first have ignored ilist implement index indexer instead ireadonlylist issue last length like linq list methods necessary noncompliant public rule runtime should shouldnt static test that third this those types used void when"
+      }
+    },
+    "GCI88": {
+      "csharp": {
+        "title": "Dispose resource asynchronously",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI88",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI88.html",
+        "terms": "allowing applications async asynchronous asynchronously await compliant consumption dispose disposed efficient enter environmental examples footprint free handle held iasyncdisposable idle ignored implement improving issue lead load lower lowering main memorystream method minimizes noncompliant operations other overall possible power public reducing resource resources rule scalability server should shouldnt state static stream synchronous task tasks test that therefore this thread time usage using utilization void when whenever which"
+      }
+    },
+    "GCI89": {
+      "python": {
+        "title": "Avoid suspect unlimited cache size",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "network",
+          "cache",
+          "creedengo"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI89",
+        "language": "python",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/python/GCI89.html",
+        "terms": "acts cache cached case code compliant consumption create default define disk doesnt energy entries examples function functools have leak libraries library maxsize memory must noncompliant none python resulting same size solution source space suspect take than this unlimited which with"
+      }
+    },
+    "GCI9": {
+      "javascript": {
+        "title": "Importing everything from library should be avoided",
+        "type": "CODE_SMELL",
+        "code": {
+          "impacts": {
+            "RELIABILITY": "MEDIUM"
+          },
+          "attribute": "EFFICIENT"
+        },
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "15min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance"
+        ],
+        "defaultSeverity": "Major",
+        "compatibleLanguages": [
+          "JAVASCRIPT",
+          "TYPESCRIPT"
+        ],
+        "key": "GCI9",
+        "language": "javascript",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/javascript/GCI9.html",
+        "terms": "amount application applications articles bandwidth better blog code compiled compliant critical decreases developers devices documentation doing download environments especially example execution faster from full generally have import importing improved including index interpreted intersect isarraylike isempty issue javascript known leading library limited lodash matter memory method minimizes mobile modules mozilla need needed needs node nodeutil noncompliant number only overall performance posts program programs reduces reducing required resources right runtime size smaller space storage store submodules such technology that this times turn underscore unnecessary uses well where with"
+      }
+    },
+    "GCI90": {
+      "csharp": {
+        "title": "Use Cast instead of Select to cast",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI90",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI90.html",
+        "terms": "asobjects better cast casting compliant efficient example ienumerable ignored instead issue items leads more object operations performance rule select shouldnt string test than this usage void when"
+      }
+    },
+    "GCI91": {
+      "csharp": {
+        "title": "Use Where before OrderBy",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Major",
+        "key": "GCI91",
+        "language": "csharp",
+        "severity": "MAJOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI91.html",
+        "terms": "async before called compliant descending doing efficient elements examples filter filtering first from ignored issue item items linq more ones only opposite orderby public query remaining right rule select shouldnt sort sorts static task test them then thenbydescending this when where"
+      }
+    },
+    "GCI92": {
+      "csharp": {
+        "title": "Use string.Length instead of comparison with empty string",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "creedengo",
+          "performance",
+          "bad-practice"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI92",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI92.html",
+        "terms": "call comparing comparison compliant console empty examples ignored instead issue length main more noncompliant performant public readable replaced rule should string this unnecessary void when which with writeline"
+      }
+    },
+    "GCI93": {
+      "csharp": {
+        "title": "Return Task directly",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "5min"
+        },
+        "tags": [
+          "eco-design",
+          "performance",
+          "creedengo"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI93",
+        "language": "csharp",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/csharp/GCI93.html",
+        "terms": "1000 application applied async asynchronous await awaited caller code compliant consideration contain context decision deferred delay desirable directly doing done efficiency efficient examples exception exceptions generated handled handling ignored improving instead issue itself leading machine main method methods modifier more myasyncmethod noncompliant optimized overhead public reduces removing resource return returning rule should single state statement static task test1 test2 that this used when which with within"
+      }
+    },
+    "GCI94": {
+      "java": {
+        "title": "orElseGet instead of orElse",
+        "type": "CODE_SMELL",
+        "status": "ready",
+        "remediation": {
+          "func": "Constant/Issue",
+          "constantCost": "1min"
+        },
+        "tags": [
+          "creedengo",
+          "eco-design",
+          "performance"
+        ],
+        "defaultSeverity": "Minor",
+        "key": "GCI94",
+        "language": "java",
+        "severity": "MINOR",
+        "htmlDescription": "org/green-code-initiative/rules/java/GCI94.html",
+        "terms": "argument code compliant computing creedengo empty evaluated even example executed getunpredictedmethod having isnt method only optional orelse orelseget parameter passed present randomclass save supplier therefore time using value when will"
+      }
+    }
+  }
+}
